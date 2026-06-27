@@ -1,4 +1,4 @@
-# Project 3: AI Recommendation Logic - Tech Stack Recommender 🎯
+# Project 3: AI Recommendation Logic - Tech Stack Recommender 
 
 ## Project Overview
 A content-based recommendation system that maps user skills and interests to suitable job roles using TF-IDF vectorization and cosine similarity scoring. This project introduces recommendation system concepts and demonstrates personalization through pattern matching and user-item alignment.
@@ -17,7 +17,6 @@ A content-based recommendation system that maps user skills and interests to sui
 Project3/
 ├── project3_recommender.py         # Main recommender implementation
 ├── raw_skills.csv                  # Job roles and skills dataset (REQUIRED)
-├── Artificial Intelligence Project 3.pdf  # Project manual
 └── README.md                        # This file
 ```
 
@@ -84,7 +83,7 @@ pip install scikit-learn pandas --break-system-packages
 
 ## CSV File Format & Requirements
 
-**⚠️ IMPORTANT:** The program requires `raw_skills.csv` to exist in the Project3 directory.
+**IMPORTANT:** The program requires `raw_skills.csv` to exist in the Project3 directory.
 
 ### CSV File Structure
 
@@ -115,7 +114,7 @@ QA Engineer,Testing Automation Python Selenium QA Test Cases CI CD
 
 If `raw_skills.csv` is not found, the program will display:
 ```
-❌ ERROR: '.../raw_skills.csv' not found!
+   ERROR: '.../raw_skills.csv' not found!
    Expected location: d:\vs_code_files\Decode-Labs\Project3\raw_skills.csv
    
    Please create the CSV file with the following format:
@@ -339,7 +338,7 @@ This recommendation system is used in:
 
 ## Project Status
 
-✅ **COMPLETE & VERIFIED**
+ **COMPLETE & VERIFIED**
 - Code meets all requirements from manual
 - Content-based filtering implemented correctly
 - TF-IDF vectorization working as expected
